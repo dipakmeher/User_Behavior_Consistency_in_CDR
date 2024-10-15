@@ -1,0 +1,33 @@
+{
+    "use_cuda": 0,
+    "root": "./data/",
+    "src_tgt_pairs":
+        {
+            "1":
+            {"src": "music_ptudata",
+            "tgt": "book_ptudata",
+            "uid": 29772,
+            "iid": 948971,
+            "batchsize_src": 256,
+            "batchsize_tgt": 256,
+            "batchsize_meta": 256,
+            "batchsize_map": 64,
+            "batchsize_test": 128
+            },
+            "2":
+            {"src": "movie_ptudata",
+            "tgt": "book_ptudata",
+            "uid": 29772,
+            "iid": 948971,
+            "batchsize_src": 256,
+            "batchsize_tgt": 256,
+            "batchsize_meta": 256,
+            "batchsize_map": 64,
+            "batchsize_test": 128
+            }
+        },
+    "emb_dim": 16,
+    "meta_dim": 50,
+    "num_fields": 2,
+    "wd": 0
+    }
