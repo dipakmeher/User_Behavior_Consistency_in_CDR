@@ -5,6 +5,9 @@ Cross-domain recommendation (CDR) has recently emerged as a promising solution t
 
 # Environment - Installations of Libraries and Packages
 Create new python environment and Install below packages. 
+python -m venv cdr_env
+source cdr_env/bin/activate 
+
 #Update pip
 pip install --upgrade pip
 
