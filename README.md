@@ -5,7 +5,9 @@ Cross-domain recommendation (CDR) has recently emerged as a promising solution t
 
 # Environment - Installations of Libraries and Packages
 Create new python environment and Install below packages. 
-python -m venv cdr_env
+
+python -m venv cdr_env 
+
 source cdr_env/bin/activate 
 
 #Update pip
@@ -14,24 +16,31 @@ pip install --upgrade pip
 #Install required Python packages
 
 #Hugging Face Transformers for AutoTokenizer, AutoModelForCausalLM, BertTokenizer, BertModel
+
 pip install transformers
 
 #Hugging Face Tokenizers
+
 pip install tokenizers
 
 #PyTorch
+
 pip install torch
 
 #Pandas for data manipulation
+
 pip install pandas
 
 #Tqdm for progress bars
+
 pip install tqdm
 
 #NumPy for numerical operations
+
 pip install numpy
 
 #Scikit-learn for normalization and cosine similarity
+
 pip install scikit-learn
 
 pip install accelerate
@@ -42,9 +51,6 @@ pip install accelerate
 echo "Please enter your Hugging Face token:"
 read hf_token
 huggingface-cli login --token "$hf_token"
-
-#Done
-echo "All required packages have been installed and Hugging Face token added."
 
 # Data Preparation
 The data preparation scripts for both the proposed method and the baselines are located in the datasets folder. The files are numbered in the sequence they should be run. Each script takes inputs from the terminal.
