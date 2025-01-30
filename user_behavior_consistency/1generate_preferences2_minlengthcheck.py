@@ -91,10 +91,10 @@ Focus on the following aspects, based on the explicit information provided and *
 7. Target Audience: Identify the intended target audience for the item, making logical inferences based on explicit cues in the provided information. If not mentioned or cannot be inferred, state 'Not mentioned'.
 8. Pacing and Style: Describe the pacing of the story and the writing or cinematic style based on explicit information and any logical inferences, only if strongly supported by clear details. If not mentioned or cannot be inferred, state 'Not mentioned'.
 
-**Important**:"Ensure that the extracted aspects provide enough detail to support an analysis of the user’s behavior consistency across domains. The goal is to capture aspects that are comparable across Books and Movies, such as emotional tone, thematic complexity, narrative depth, or any other relevant feature that highlights how the user engages with the content in each domain."
+Important:Ensure the extracted aspects capture sufficient detail to analyze user behavior consistency across domains, focusing on comparable features like emotional tone, thematic complexity, and narrative depth.
 
 
-**Important**: Do not include any user sentiments, opinions, or additional commentary. Focus strictly on providing information related to the above aspects, and exclude all other content. If certain information cannot be inferred with confidence, state 'Not mentioned' rather than making assumptions."""}
+Important: Exclude user sentiments or opinions and provide only the relevant aspects. If certain information cannot be inferred confidently, state 'Not mentioned' instead of making assumptions."""}
 ]
 
     
