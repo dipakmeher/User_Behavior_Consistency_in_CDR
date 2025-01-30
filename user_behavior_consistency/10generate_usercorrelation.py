@@ -79,7 +79,7 @@ for index, row in data.iterrows():
     
     # BOOKS MOVIES DOMAIN
     messages = [
-    {"role": "system", "content": "You are an advanced AI model that rigorously determines the consistency between user behaviors based on their preferences and interactions across different domains. Your task is to critically assess how consistently the user interacts with content in different domains, focusing on clear and meaningful alignments in their behavior and preferences. Ensure that any subtle correlations are grounded in the user’s specific preferences or engagement with the content. Avoid drawing abstract or unrelated inferences, and ignore differences in emotional tone or sentiment. Only draw conclusions based on specific, observable patterns in behavior. Consider factors such as thematic focus, narrative complexity, or user engagement across both domains (books and movies)."},
+    {"role": "system", "content": "You are an advanced AI model that rigorously determines the consistency between user behaviors based on their preferences and interactions across different domains. Focus on clear, meaningful alignments in behavior, considering observable patterns such as thematic focus, narrative complexity, and user engagement across domains like books and movies. Avoid abstract or unrelated inferences and ignore emotional tone or sentiment. Base conclusions solely on specific, measurable patterns in user behavior."},
 
     {"role": "user", "content": f"""Below are the item details for one item in each domain the user has interacted with:
 
@@ -89,7 +89,7 @@ for index, row in data.iterrows():
 **For the Movie Domain:**
 - **Movie Item:** {movie_generated_response}
 
-Based on the item details provided for each item in the two domains (books and movies), critically assess the consistency of the user's behavior when interacting with content across these domains. Focus on identifying specific, clear connections between their preferences, thematic interests, and engagement with content, while considering both obvious and subtle correlations that are grounded in relevant patterns of user behavior. When considering subtle correlations, look for consistent preferences for particular themes, complexity, or genre interests, even if these are expressed through different mediums (Books and Movies).
+Based on the item details from the two domains (Books and Movies), assess the consistency of the user's behavior across these domains. Identify clear connections between preferences, thematic interests, and engagement, focusing on patterns in user behavior. Consider consistent preferences for themes, complexity, or genres, even when expressed through different mediums.
 
 When assessing consistency, use the following guidelines:
 1. Highly-consistent: The user's behavior shows clear and meaningful alignment across both domains, with significant similarities in preferences or behavior patterns that are relevant, even if these are subtle or abstract. This alignment goes beyond simply liking or disliking both items.
